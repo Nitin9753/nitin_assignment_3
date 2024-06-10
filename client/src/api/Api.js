@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: 'https://avatart-web-app.onrender.com/api/v1/user' });
+const API = axios.create({ baseURL: 'https://avatart-web-app.onrender.com' });
 
 
 
