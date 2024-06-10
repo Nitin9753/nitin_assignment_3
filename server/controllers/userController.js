@@ -38,7 +38,6 @@ const registerUser = async(req, res) => {
 };
 const getUser = async(req, res) => {
     try {
-        console.log('came');
         const users = await userModel.find({});
         return res.status(200).send({
             userCount: users.length,
